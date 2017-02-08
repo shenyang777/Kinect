@@ -1,0 +1,16 @@
+﻿Build started 1/19/2017 5:27:36 PM.
+     1>Project "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Native\DepthBasics-D2D\DepthBasics-D2D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc" /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DepthBasics.cpp
+         DepthBasics.cpp
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Native\DepthBasics-D2D\Debug\DepthBasics-D2D.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x64" kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Native\DepthBasics-D2D\Debug\DepthBasics-D2D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Native\DepthBasics-D2D\Debug\DepthBasics-D2D.lib" /MACHINE:X86 Debug\DepthBasics.res
+         Debug\DepthBasics.obj
+         Debug\ImageRenderer.obj
+     1>DepthBasics.obj : error LNK2019: unresolved external symbol _GetDefaultKinectSensor@4 referenced in function "private: long __thiscall CDepthBasics::InitializeDefaultSensor(void)" (?InitializeDefaultSensor@CDepthBasics@@AAEJXZ)
+     1>C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Native\DepthBasics-D2D\Debug\DepthBasics-D2D.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Native\DepthBasics-D2D\DepthBasics-D2D.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.01
